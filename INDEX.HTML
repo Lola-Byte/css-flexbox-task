@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEXBOX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <a href="grid.html/"></a>
+         <style>
+              .box1{align-items: center;
+                 flex: 1;
+                background-color: hsl(31,77%,52%);
+                border-radius: 20px;
+          
+                border-top: 10px;
+                border-right: 0;
+                border-bottom: 10px;
+              padding: 40px;}
+              .box2{align-items: center;
+                    flex:1;
+                    background-color:hsl(184,100%,22%);
+                      padding: 31px;}
+              .box3{align-items: center;
+                width: auto;
+              flex: 1;
+                background-color: hsl(179,100%,13%);
+                border-radius: 20px;
+                border-top: 0px;
+                border-right: 20px;
+                border-left: 0px;
+              padding:40px;}
+
+              main{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 100px;
+                  background-color: hsl(0,0%,95%);
+                   box-sizing:border-row;
+                   flex-direction: row;
+                }
+                  h3{font-size: 15px;
+                    font-family:'big shoulders display',cursive;
+                    color:hsl(0,0%,95%)}
+
+                p{ font-family:'lexend deca',sans-serif ;
+                   color: hsla(0,0%,100%,0.75);}
+                   button{
+                    font-family:'lexend deca'sans-serif;
+                    color:hsl(0,0%,95%);
+
+
+                   }
+
+    </style>
+  </head>
+  <body font-family:font-family:'Lexend Deca',sans-serif;font-family: ;
+  ;>
+     <main style="width: 50%; margin: auto; display: flex">
+      <div class="box1">
+        <img src="icons/icon-sedans.svg" alt="pitcure of a sedan" />
+        <h3>SEDANS</h3>
+        <p class="we">
+          Choose a sedan for its affordability and excellent fuel economy.Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="box2">
+        <img src="icons/icon-suvs.svg" alt="picure of a suv" />
+        <h3>SUVS</h3>
+        <p class="we">
+          Take an SUV for its spacious interior, power,and versailtlity.Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="box3">
+        <img src="icons/icon-luxury.svg" alt="luxury car" />
+        <h3>LUXURY</h3>
+        <p class="we">
+          Cruise in the best car brands without the bloated pices .Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button>Learn more</button>
+      </div>
+    </main>
+  </body>
+</html>
